@@ -52,7 +52,8 @@ HTMLWidgets.widget({
     var pivot = new WebDataRocks({
 	          container: el.id,
             toolbar: true,
-            report: x.report});
+            report: x.report,
+            localization: x.local});
 
 
 
