@@ -53,6 +53,7 @@
 pivta <- function(dsource = "",
                   sep = ",",
                   report = "",
+                  local = "",
                   width = NULL,
                   height = NULL) {
 
@@ -60,7 +61,8 @@ pivta <- function(dsource = "",
   x = list(
     dsource = dsource,
     report = report,
-    sep = sep
+    sep = sep,
+    local = local
   )
 
   # create widget
