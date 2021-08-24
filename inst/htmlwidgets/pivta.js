@@ -24,6 +24,10 @@ HTMLWidgets.widget({
                 filename: x.dsource,
                 fieldSeparator: x.sep
             },
+   	    global: {
+            localization: x.local
+                
+            },
 
        options: {
 
