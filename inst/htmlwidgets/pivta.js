@@ -54,7 +54,9 @@ HTMLWidgets.widget({
 	          container: el.id,
             toolbar: true,
             report: x.report,
-	    global: x.local,
+	    global: {
+            localization: x.local 
+            },
             localization: x.local});
 
 
