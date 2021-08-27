@@ -53,6 +53,7 @@
 pivta <- function(dsource = "",
                   sep = ",",
                   report = "",
+                  global = "",
                   local = "",
                   width = NULL,
                   height = NULL) {
@@ -61,6 +62,7 @@ pivta <- function(dsource = "",
   x = list(
     dsource = dsource,
     report = report,
+    global = global,
     sep = sep,
     local = local
   )
